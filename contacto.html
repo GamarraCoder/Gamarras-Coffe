@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Enlanzado normalize-->
+    <link rel="preload" href="css3/normalize.css" as="style">
+    <link rel="stylesheet" href="css3/normalize.css">
+
+    <!--Enlazando Css3-->
+    <link rel="preload" href="css3/style.css" as="style">
+    <link rel="stylesheet" href="css3/style.css">
+
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Staatliches&display=swap"
+        rel="stylesheet">
+
+
+    <title>Gamarra's Coffe</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header"> 
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo top">
+                    <h1 class="logo__nombre no-margin centrar-texto">Gamarra's <span class="logo__bold top">Coffe</span>
+                    </h1>
+                </a>
+
+
+                <!--Barra de navegacion-->
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div> <!--barra-->
+        </div> <!--contenedor-->
+
+        <div class="header__texto no-margin">
+            <h2 class="no-margin" id="heading">Descubre el arte de preparar café</h2>
+            <p>Aprende con los expertos las mejores recetas</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="64" height="64"
+                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p class="no-margin">Valencia Venezuela</p>
+        </div> <!--Header__texto-->
+    </header>
+
+
+
+    <main class="contenedor contenedor-margin">
+        <h4 class="centrar-texto">Contactanos atravez del siguiente formulario</h4>
+
+        <div class="contacto-bg"></div> <!--imagen-->
+           
+
+                <form class="formulario">
+
+                    <div class="campo no-padding"> 
+                        <label for="nombre" class="campo__label no-padding">Nombre</label>
+                        <input type="text" placeholder="Tu nombre" id="nombre" class="campo__field">
+
+                        <label class="campo__label" for="email">E-mail</label>
+                        <input type="text" placeholder="Tu E-mail" id="email">
+
+                        <label class="campo__label" for="mensaje">Mensaje</label>
+                     <textarea id="mensaje" class="campo__field--textarea"></textarea>
+
+
+
+                    </div> <!--campo-->
+
+                    <div class="campo">
+                     <input type="submit" value="Enviar" class="button button--primario campo__field">
+
+                    </div> 
+                </form>
+          
+            
+
+
+    </main>
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="contenedor">
+
+            <div class="contenedor">
+                <div class="barra">
+                    <a href="index.html" class="logo top">
+                        <h1 class="logo__nombre no-margin centrar-texto">Gamarra's <span
+                                class="logo__bold top">Coffe</span></h1>
+                    </a>
+
+
+                    <!--Barra de navegacion-->
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+
+                </div> <!--barra-->
+            </div> <!--contenedor-->
+    </footer>
+    <script src="js/modernizr.js"></script>
+    <script src="js/scrip.js"></script>
+
+</body>
+
+
+
+</html>
+
+
